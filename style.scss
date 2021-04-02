@@ -1,11 +1,8 @@
-$primaryBtn : blue;
+@import "./variables"
+@import "./header"
 
-header {
-  background: lightblue;
-  display: flex;
-  justify-content: center;
-}
-
-header button{
-  background: red
+.contact {
+  @extend header;
+  background: lightcoral;
+  width: $fullWidth - 20%;
 }
