@@ -1,0 +1,38 @@
+header, .contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: lightblue;
+  height: 100vh;
+  color: purple;
+}
+header button, .contact button {
+  background: blue;
+}
+header button::after, .contact button::after {
+  content: "Hello!!";
+}
+
+header button, .contact button {
+  background: red;
+}
+
+.contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: lightcoral;
+}
+.contact info {
+  background: purple;
+}
+
+.contact button {
+  background: primaryBtn;
+}
+
+/*# sourceMappingURL=style.css.map */
